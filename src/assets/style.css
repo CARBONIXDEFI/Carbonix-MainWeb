@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 17px;
+    color: #fff;
+}
+
+.container{
+    max-width: 1170px;
+    width: 100%;
+}
+
+.container-mini{
+    max-width: 940px;
+    width: 100%;
+}
+
+p{
+    margin-bottom: 1.5em;  
+    font-weight: 300;
+    opacity: 0.7;
+}
+
+p:last-child{
+    margin-bottom: 0;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+    line-height: inherit;
+}
+
+h1{
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 100px;
+    margin-bottom: 0.2em;
+}
+
+h2{
+    margin-top: 0;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: .4em;
+}
+
+h3{
+    margin-top: 0;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: .6em;
+    letter-spacing: 0.03em;
+}
+
+h4{
+    margin-top: 0;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 37px;
+    margin-bottom: 1.2em;
+}
+
+h5{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    margin-bottom: 0.4em;
+    letter-spacing: 0.03em;
+}
+
+h6{
+    opacity: 0.8;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+}
+
+.btn{
+    color: #fff;
+    font-size: 16px;
+    min-width: 200px;
+    font-weight: 700;
+    line-height: 24px;
+    border-radius: 10px;
+    letter-spacing: 0.04em;
+    padding: 15px 48px 14px;
+    text-transform: uppercase;
+    box-shadow: none !important;
+}
+
+.btn-sm{
+    line-height: 1;
+    min-width: auto;
+    border-radius: 3px;
+    padding: 13px 25px 12px 25px;
+}
+
+.btn-blue{
+    background-color: #5bc0de;
+}
+
+.btn-outline-white{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.btn-outline-white:hover{
+    background-color: #fff;
+    color: #121212;
+}
+
+a{
+    transition: all 0.35s linear;
+}
+
+.py-100{
+    padding-top: 85px;
+    padding-bottom: 65px;
+}
+
+.bg-black{
+    background-color: #000;
+}
+
+.header{
+    padding: 30px 0;
+}
+
+.header .container{
+    max-width: 1680px;
+}
+
+.footer{
+    padding: 56px 0 20px;
+}
+.social-media{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.social-media a{
+    opacity: 0.15;
+    margin: 5px 15px;
+}
+.social-media a:hover{
+    opacity: 1;
+}
+.social-media a img{
+    display: block;
+}
+.copyright{
+    font-size: 16px;
+    padding-top: 20px;
+    letter-spacing: 0.04em;
+    border-top: 1px rgba(196, 196, 196, 0.15) solid;
+}
+
+.home-banner{
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+.home-banner .btn{
+    margin-right: 8px;
+    margin-top: 8px;
+}
+.home-banner h4{
+    max-width: 85%;
+}
+
+.home-banner video{
+    width: 120%;
+    height: 660px;
+    display: block;
+    object-fit: cover;
+}
+
+.banner-cards-row{
+    margin-top: 80px;
+}
+
+.banner-card{
+    padding: 35px 0;
+    border-radius: 26px;
+    background-color: rgba(255, 255, 255, 0.03);
+}
+.banner-card h2{
+    margin-bottom: 5px;
+}
+.banner-card h6{
+    margin-bottom: 0;
+}
+
+.section-title{
+    margin-bottom: 60px;
+}
+
+.section-title:after{
+    background: #C4C4C4;
+    display: block;
+    margin: auto;
+    width: 100px;
+    content: "";
+    height: 4px;
+}
+
+.card-info img{
+    margin-bottom: 15px;
+}
+.card-info h5{
+    text-transform: uppercase;
+}
+
+.about-section p{
+    max-width: 550px;
+    width: 100%;
+}
+
+.features-section p{
+    max-width: 570px;
+    width: 100%;
+}
+
+.features-section{
+    background-image: url('../assets/images/feature-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.data-table{
+    margin: auto;
+    overflow: hidden;
+    border-radius: 25px;
+    text-align: center;
+    max-width: 1030px;
+    border: 1px rgba(255, 255, 255, 0.3) solid;
+}
+.data-table th{
+    background-color: #A61A1A;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+}
+.data-table td:first-child{
+    text-align: left;
+}
+.data-table td{
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 11px 30px;
+    text-transform: uppercase;
+}
+.data-table td small{
+    font-size: 14px;
+    opacity: 0.6;
+}
+.data-table tbody tr:nth-child(2n+2) td{
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+.number_circle{
+    margin: 0 auto 20px !important;
+    border: 3px solid #fff;
+    width: 130px;
+    height: 130px;
+    max-width: 130px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.roadmap-info{
+    max-width: 215px;
+    display: block;
+    margin: auto;
+}
+.roadmap-row > div{
+    position: relative;
+}
+.roadmap-row > div:nth-child(2):before, .roadmap-row > div:nth-child(3):before{
+    background-image: url('../assets/images/roadmap-lines1.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 240px;
+    width: 300px;
+    content: "";
+    left: -258px;
+    top: 50px;
+}
+
+.my-80{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.road-map{
+    background-image: url('../assets//images/road-map-bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.btn-check:active+.btn-primary, .btn-check:checked+.btn-primary, .btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle, .dropdown-item.active, .dropdown-item:active{
+    background-color: #fff;
+    border-color: #fff;
+    color: #000;
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.dropdown-menu{
+    min-width: 100%;
+    background-color: #141414;
+}
+.dropdown-menu a{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    font-weight: 400;
+    padding: 12px 15px;
+}
+.dropdown-toggle:after{
+    margin-left: 10px;
+}
