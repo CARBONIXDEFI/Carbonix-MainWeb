@@ -1,7 +1,7 @@
 import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
 
-import AboutBlock1 from '../../assets/images/about_black_1.png';
+import AboutBlock1 from '../../assets/images/about_black_1.svg';
 import AboutBlock2 from '../../assets/images/about_black_2.png';
 import PD_icon1 from '../../assets/images/pd_icon1.png';
 import PD_icon2 from '../../assets/images/pd_icon2.png';
@@ -18,22 +18,22 @@ const AboutBlack = () => {
                 </div>
 
                 <Row className="align-items-center mb-md-4 mb-5">
-                    <Col md={5} className="order-md-2 mb-md-0 mb-4 text-center" data-aos="fade-up" data-aos-delay="200">
+                    <Col md={5} className="order-md-2 mb-md-0 mb-4 text-center" data-aos="fade-left" data-aos-delay="200">
                         <img src={AboutBlock1} alt="AboutBlock1" className="img-fluid" />
                     </Col>
-                    <Col md={7} data-aos="fade-up">
-                        <h3>A BETTER ALTERNATIVE TO GOLD</h3>
-                        <p>BLACK aims to be the world's first NON-DEPRECIATING Smart Money with all the characteristics of GOLD by introducing three innovative protocol operations that help increase the purchasing power over time significantly</p>
+                    <Col md={7}>
+                        <h3 data-aos="fade-up">A BETTER ALTERNATIVE TO GOLD</h3>
+                        <p data-aos="fade-up" data-aos-delay="100">BLACK aims to be the world's first NON-DEPRECIATING Smart Money with all the characteristics of GOLD by introducing three innovative protocol operations that help increase the purchasing power over time significantly</p>
                     </Col>
                 </Row>
 
                 <Row className="align-items-center justify-content-between mb-md-4 mb-5">
-                    <Col md={5} className="mb-md-0 mb-4 text-center" data-aos="fade-up" data-aos-delay="200">
+                    <Col md={5} className="mb-md-0 mb-4 text-center" data-aos="fade-right" data-aos-delay="200">
                         <img src={AboutBlock2} alt="AboutBlock2" className="img-fluid" />
                     </Col>
                     <Col md={6} data-aos="fade-up">
-                        <h3>SAFE DEFI ASSET</h3>
-                        <p>The protocol dynamics are structured to increase the purchase power linearly after every transaction making it one of the robust candidates as a minimum guarantee collateral for DEFI protocols and long-term investors.</p>
+                        <h3 data-aos="fade-up">SAFE DEFI ASSET</h3>
+                        <p data-aos="fade-up" data-aos-delay="100">The protocol dynamics are structured to increase the purchase power linearly after every transaction making it one of the robust candidates as a minimum guarantee collateral for DEFI protocols and long-term investors.</p>
                     </Col>
                 </Row>
 
