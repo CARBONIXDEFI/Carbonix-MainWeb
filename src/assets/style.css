@@ -139,6 +139,10 @@ a{
     max-width: 1680px;
 }
 
+.header-logo img{
+    width: 80px;
+}
+
 .footer{
     padding: 56px 0 20px;
 }
@@ -212,7 +216,13 @@ a{
 }
 
 .card-info img{
-    margin-bottom: 15px;
+    top: 0;
+    position: relative;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+.card-info:hover img{
+    top: -8px;
 }
 .card-info h5{
     text-transform: uppercase;
@@ -328,6 +338,7 @@ a{
 }
 .dropdown-menu{
     min-width: 100%;
+    padding-bottom: 0;
     background-color: #141414;
 }
 .dropdown-menu a{
@@ -335,8 +346,21 @@ a{
     font-size: 12px;
     font-weight: 700;
     font-weight: 400;
-    padding: 12px 15px;
+    padding: 10px 15px;
+}
+.dropdown-menu a:hover{
+    background-color: #000;
+    color: #fff;
 }
 .dropdown-toggle:after{
     margin-left: 10px;
+}
+.dropdown:hover .btn{
+    color: #fff;
+    border-color: #000;
+    background-color: #141414;
+    box-shadow: 0 0 13px 0 rgb(128 128 128) !important;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
 }

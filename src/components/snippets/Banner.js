@@ -12,11 +12,11 @@ const Banner = () => {
                         <h1 data-aos="fade-up">BLACK COLLATERAL</h1>
                         <h4 data-aos="fade-up">AN INTELLIGENT STORE OF VALUE BET AGAINST BITCOIN</h4>
                         {/* <a href="/" data-aos="fade-up" className="btn btn-outline-white">Buy Black</a> */}
-                        <a data-aos="fade-up" href="/" className="btn btn-sm btn-blue">BUY BLACK</a>
-                        <a data-aos="fade-up" href="/" className="btn btn-sm btn-blue">EXPLAINER VIDEO</a>
-                        <a data-aos="fade-up" href="/" className="btn btn-sm btn-blue">STAKING</a>
-                        <a data-aos="fade-up" href="/" className="btn btn-sm btn-blue">BURN VAULT</a>
-                        <a data-aos="fade-up" href="/" className="btn btn-sm btn-blue">DASHBOARD</a>
+                        <a data-aos="fade-up" rel="noreferrer" target="_blank" href="https://www.carbonix.finance/home" className="btn btn-sm btn-blue">BUY BLACK</a>
+                        <a data-aos="fade-up" rel="noreferrer" target="_blank" href="https://www.youtube.com/channel/UCnXEtSWkUZ8CO4qytlWCtKQ" className="btn btn-sm btn-blue">EXPLAINER VIDEO</a>
+                        <a data-aos="fade-up" rel="noreferrer" target="_blank" href="https://www.carbonix.finance/home" className="btn btn-sm btn-blue">STAKING</a>
+                        <a data-aos="fade-up" rel="noreferrer" target="_blank" href="https://www.carbonix.finance/home" className="btn btn-sm btn-blue">BURN VAULT</a>
+                        <a data-aos="fade-up" rel="noreferrer" target="_blank" href="https://www.carbonix.finance/home" className="btn btn-sm btn-blue">DASHBOARD</a>
                         <a data-aos="fade-up" href="https://verify-with.blockpass.org/?clientId=blackcollateralkyc_3f420&serviceName=BlackCollateral-KYC&env=prod" rel="noreferrer" target="_blank" className="btn btn-sm btn-blue">BLOCKPASS KYC</a>
                     </Col>
                     <Col md={6}>
