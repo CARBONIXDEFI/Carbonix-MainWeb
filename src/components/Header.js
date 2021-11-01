@@ -19,7 +19,7 @@ function Header() {
                         data-popper-escaped="false"
                         data-popper-placement="bottom-start"
                     >
-                        <a rel="noreferrer" target="_blank" href="https://github.com/CARBONIXDEFI/Whitepaper" data-rr-ui-dropdown-item="" class="dropdown-item">WHITEPAPER</a>
+                        <a rel="noreferrer" target="_blank" href="https://github.com/CARBONIXDEFI/Whitepaper/blob/main/ProjectBlack_WhitepaperV2.2.pdf" data-rr-ui-dropdown-item="" class="dropdown-item">WHITEPAPER</a>
                         <a rel="noreferrer" target="_blank" href="https://github.com/CARBONIXDEFI/Whitepaper/blob/main/BLACKCOLLATERAL_LitePaperV2.2.pdf" data-rr-ui-dropdown-item="" class="dropdown-item">Lite Paper</a>
                         <a rel="noreferrer" target="_blank" href="https://github.com/CARBONIXDEFI/Whitepaper" data-rr-ui-dropdown-item="" class="dropdown-item">Token Metrics</a>
                     </div>
